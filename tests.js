@@ -26,4 +26,17 @@ describe('sayHello', function () {
     it('should add "Hello!, " to the input', function () {
         expect(sayHello("Jane")).toBe("Hello!, Jane")
     });
+    it('should return "Hello!, Pat" when called with "Pat" as the argument', function () {
+      expect(sayHello("Pat")).toBe("Hello!, Pat")
+    });
+    it('should return "Hello, World!" when no parameters are set', function () {
+        expect(sayHello()).toBe("Hello, World!")
+    });
+    it('should return "Hello, World!" if boolean true is input', function () {
+        expect(sayHello(true)).toBe("Hello, World!")
+    });
+    it('should return "Hello, World!" if boolean true is input', function () {
+        expect(sayHello(false)).toBe("Hello, World!")
+    });
+
 });
