@@ -20,10 +20,10 @@ describe('sayHello', function () {
     it('should return a string when called', function () {
         expect(typeof sayHello()).toBe('string')
     });
-    it('should return the string "hello" when called', function () {
-        expect(sayHello()).toBe("hello")
-    });
     it('should never return undefined when called', function () {
         expect(sayHello()).not.toBe(undefined)
+    });
+    it('should add "Hello!, " to the input', function () {
+        expect(sayHello("Jane")).toBe("Hello!, Jane")
     });
 });
