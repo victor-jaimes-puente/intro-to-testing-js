@@ -39,6 +39,7 @@ Additionally, we will be using a process called Test Driven Development, commonl
 ## Reference: The Test Driven Development means that tests "drive" the development.
 [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development), TDD, is the process of authoring a test before writing any other code. Here's the TDD workflow:
 
+1. Once you've co
 1. Step 1: Write the smallest possible test: Identify the simplest, smallest thing you want to confirm. For example, before a function exists, assert that the function is defined.
 2. Step 2: Run all the tests to ensure that the new test fails. We're **supposed** to see a red, failing test, since there's no code yet to green it. Red means we did the first step correctly. Seeing the newest test turn red is critical because our tests drive the development, not the other way around.
 3. Step 3: Write only enough code to green that newest test. No more, no less. It's OK if things are hard-coded here.
@@ -56,8 +57,7 @@ Additionally, we will be using a process called Test Driven Development, commonl
 1. Fork this repository to make a copy on your own GitHub account.
 1. Make sure that your browser is showing this project in your own repositories list in your own account.
 1. Click the green button on the right that says "Clone or Download". 
-1. The clone address should look like `git@github.com:your-github-username/intro-to-testing-js.git`, where `your-github-username` is actually your own username on GitHub.
-1. Once you've copied your repo's clone address, it's time to clone the project in one of two ways: 
+1. The clone address should look like `git@github.com:your-github-username/intro-to-testing-js.git`, where `your-github-username` is actually your own username on GitHub.pied your repo's clone address, it's time to clone the project in one of two ways: 
     - If you're using IntelliJ, choose New->Project From Version Control->Git and then paste in the clone address.`git clone git@github.com:your-github-username/intro-to-testing-js.git`.
     - If you're using command line, then execute the following command line command: `git clone git@github.com:your-github-username/intro-to-testing-js.git`.
 1. Once cloned to your projects directory, open up the project.
